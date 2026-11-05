@@ -1,14 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a;
-    int b;
-    int c;
-    printf("Enter 1st number :\n ");
-    scanf("%d",&a);
-    printf("Enter 2nd number: \n ");
-    scanf("%d",&b);
-    c = a+b;
-    printf("Sum of two numbers is %d",c);
-
+    char s[] = "hello     world";
+    char d[20];
+    int i= 0;
+    while(s[i]!='\0'){
+        if (s[i]==" "
+    }
     return 0;
+
 }
